@@ -128,7 +128,7 @@ subfolders = [f for f in os.listdir(folder_path) if os.path.isdir(os.path.join(f
 # print(subfolders)
 
 # print("test file is",test_file)
-test_file = r"C:\Users\Sohail Dil\.cache\kagglehub\datasets\galaxyh\kdd-cup-1999-data\versions\1\corrected\corrected"
+# test_file = r"C:\Users\Sohail Dil\.cache\kagglehub\datasets\galaxyh\kdd-cup-1999-data\versions\1\corrected\corrected"
 try:
     kdd_data_labeled = pd.read_csv(test_file, header=None, names=col_names)
 except Exception as e:
