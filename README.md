@@ -1,3 +1,25 @@
+
+Network-Based Intrusion Detection System (NIDS) - README
+This project is a Network-Based Intrusion Detection System (NIDS), combining the power of machine learning models with the frontend capabilities of Next.js. The app detects potential network intrusions by analyzing data and providing real-time insights.
+
+Features
+Next.js Frontend: A responsive and user-friendly interface for visualizing and monitoring network activities.
+Backend with Python Models: Machine learning models located in the models folder, used for detecting and classifying intrusions.
+Real-Time Detection: Enables users to receive alerts about suspicious activities.
+API Integration: Seamless communication between the Next.js frontend and Python-based backend.
+Interactive Visualization: Graphical representation of detected anomalies for easier understanding.
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
